@@ -50,7 +50,7 @@ export const SingleComment = ({ name, comment, replies }) => {
       {replies.length > 0 && (
         <div className='p-2 w-full'>
           {replies.map((reply, index) => (
-            <SingleComment key={index} name={reply.name} comment={reply.comment} replies={reply.replies} />
+            <SingleComment key={index} name={reply.name} comment={reply.comment} replies={reply.replies} />//recursion
           ))}
         </div>
       )}

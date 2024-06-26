@@ -7,8 +7,6 @@ import SearchOptions from './SearchOptions';
 const Head = () => {
   const [search,setsearch]=useState("");
   const [showsugestions,setshowsugestions]=useState(true);
-  // const text=useRef(null);
-  // console.log(text.current.value);
   const dispatch=useDispatch();
   const handleonclick= ()=>{
         dispatch(toggleMenu());

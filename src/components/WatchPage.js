@@ -22,8 +22,10 @@ const WatchPage = () => {
         <iframe width="900" height="500" src={"https://www.youtube.com/embed/"+id} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <Live_chat></Live_chat>
       </div>
+      <div className=''>
+         <Comments></Comments>
+      </div>
 
-      <Comments></Comments>
     </div>
   )
 }
